@@ -12,7 +12,7 @@ namespace BootCamp.Chapter
             Console.Write("Now, enter your age: ");
             int age = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine($"\nYour name is {name} and you have {age} old!");
+            Console.WriteLine($"\nYour name is {name} and you have {age} old!.".ToUpper());
         }
     }
 }
